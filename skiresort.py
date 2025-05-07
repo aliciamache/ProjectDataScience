@@ -51,7 +51,7 @@ else:
 
 st.subheader("Ticket Price vs Rating")
 
-# Make sure data has the needed columns and no missing values
+
 scatter_data = data.dropna(subset=['Resort name', 'Ticket Price', 'Test Rating', 'Ski lifts'])
 
 if scatter_data.empty:
